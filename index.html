@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finance App Landing Page</title>
+    <title>Batch assignment</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-        <div class="container">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
             <a class="navbar-brand logo" href="#">
-                <img src="assets/logo.png" alt="Logo">
+                <img src="assets/logo.png" alt="">
+                <img src="assets/Vector.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,36 +28,36 @@
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link                        href="#">Pricing</a>
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
                     </li>
                 </ul>
-                <button class="btn btn-primary ms-3">Download</button>
+                <button class="btn btn-dark ms-3">Download</button>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <div class="hero container-fluid text-center py-5">
         <div class="row">
             <div class="col-lg-6 hero-text text-lg-start">
-                <h2>Make The <span class="bg-blur-red"></span><span class="bg-blur-yellow"></span> Best Financial Decisions</h2>
-                <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+                <h2>Make The <span class="bg-blur-red"></span><span class="bg-blur-yellow"></span> Best Financial Decisions
+                </h2>
+                <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                    sociis arcu lorem porttitor.</p>
                 <div class="hero-btn-div d-flex flex-wrap">
-                    <button class="btn btn-primary me-3">Get Started →</button>
+                    <button class="btn btn-dark me-3">Get Started →</button>
                     <div class="watch-now d-flex align-items-center">
-                        <img src="assets/play_icon.png" alt="Play">
+                        <img src="assets/play_icon.png" alt="">
                         <span>Watch Now</span>
                     </div>
                 </div>
-                <!-- Ribbon Section -->
                 <div class="ribbon mt-4">
-                    <img class="a" src="assets/a.png" alt="A">
+                    <img class="a" src="assets/a.png" alt="">
                     <div class="ribbon-top d-flex justify-content-between align-items-center">
                         <div class="ribbon-top-left d-flex align-items-center">
-                            <img src="assets/hero-logo1.png" alt="Logo1">
+                            <img src="assets/hero-logo1.png" alt="">
                             <div class="ribbon-text ms-2">
                                 <div>Achievements</div>
                                 <div>Best Finance App on PlayStore</div>
@@ -65,7 +65,7 @@
                         </div>
                         <hr>
                         <div class="ribbon-top-right d-flex align-items-center">
-                            <img src="assets/hero-logo2.png" alt="Logo2">
+                            <img src="assets/hero-logo2.png" alt="">
                             <div class="ribbon-text ms-2">
                                 <div>Finance</div>
                                 <div>Most Popular Accounting App</div>
@@ -76,7 +76,7 @@
                         <p>Make The Best Financial Decisions</p>
                     </div>
                     <div class="ribbon-bottom d-flex align-items-center justify-content-end">
-                        <img src="assets/star-1.png" alt="Star">
+                        <img src="assets/star-1.png" alt="">
                         <div class="ribbon-bottom-text ms-2">
                             <div>Uifry Premium</div>
                             <div>Free Trial</div>
@@ -84,25 +84,32 @@
                     </div>
                 </div>
             </div>
-            <!-- Image Section -->
             <div class="col-lg-6 img-container d-none d-lg-block position-relative">
-                <div class="position-relative">
-                    <img src="assets/iPhone-13-layer-1.png" class="img-fluid" alt="iPhone 1">
-                    <div class="bg-blur-red position-absolute"></div>
-                    <div class="bg-blur-yellow position-absolute"></div>
+                <span class="ellipse-container position-absolute">
+                    <span class="ellipse"></span>
+                    <span class="ellipse"></span>
+                    <span class="ellipse"></span>
+                </span>
+                <div class="img-bottom position-absolute">
+                    <img src="assets/iPhone-13-layer-1.png" alt="">
                 </div>
+                <div class="img-mid position-absolute">
+                    <img src="assets/iPhone-13-layer-2.png" alt="">
+                </div>
+                <div class="img-top position-absolute">
+                    <img src="assets/iPhone-13-layer-1.png" alt="">
+                </div>
+                <span class="bg-blur-yellow position-absolute"></span>
+                <span class="bg-blur-red position-absolute"></span>
             </div>
         </div>
     </div>
 
-    <!-- Features Section -->
     <div class="features-section container my-5">
         <div class="row">
             <div class="col-lg-6 img-container position-relative d-none d-lg-block">
-                <div class="position-relative">
-                    <img src="assets/features-1.png" class="img-fluid" alt="Features 1">
-                    <div class="bg-blur-red position-absolute"></div>
-                </div>
+                <span class="bg-blur-red position-absolute"></span>
+                <img src="assets/features-1.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 info-section">
                 <div class="headings">
@@ -111,26 +118,28 @@
                 </div>
                 <div class="features-list">
                     <div class="features-list-item d-flex align-items-center">
-                        <img src="assets/star-05.png" alt="                            Star 05">
+                        <img src="assets/star-05.png">
                         <li>Budgeting Intervals</li>
                     </div>
-                    <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+                    <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                        sociis arcu lorem porttitor.</p>
                     <div class="features-list-item d-flex align-items-center">
-                        <img src="assets/cube-02.png" alt="Cube 02">
+                        <img src="assets/cube-02.png" alt="">
                         <li>Budgeting Intervals</li>
                     </div>
-                    <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+                    <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                        sociis arcu lorem porttitor.</p>
                     <div class="features-list-item d-flex align-items-center">
-                        <img src="assets/cube-04.png" alt="Cube 04">
+                        <img src="assets/cube-04.png">
                         <li>Budgeting Intervals</li>
                     </div>
-                    <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+                    <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                        sociis arcu lorem porttitor.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Advantages Section -->
     <div class="advantages-section container my-5">
         <div class="row">
             <div class="col-lg-6 info-section">
@@ -140,22 +149,22 @@
                 </div>
                 <div class="features-list">
                     <div class="features-list-item d-flex align-items-center">
-                        <img src="assets/notif.png" alt="Notif">
+                        <img src="assets/notif.png">
                         <li>Clever Notifications</li>
                     </div>
-                    <p>Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+                    <p>Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                        mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam
+                        suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 img-container position-relative d-none d-lg-block">
-                <div class="position-relative">
-                    <img src="assets/features-1.png" class="img-fluid" alt="Features 1">
-                    <div class="bg-blur-red position-absolute"></div>
-                </div>
+                <span class="bg-blur-red position-absolute"></span>
+                <img src="assets/features-1.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 
-    <!-- FAQ Section -->
     <div class="faq-section container my-5">
         <div class="headings text-center mb-4">
             <div class="h4">FAQ</div>
@@ -165,31 +174,34 @@
             <div class="col-lg-6 mb-3">
                 <div class="faq-item item-red p-3">
                     <h2>The Best Financial Accounting App Ever!</h2>
-                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 mb-3">
                 <div class="faq-item item-white p-3">
                     <h2>The Best Financial Accounting App Ever!</h2>
-                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 mb-3">
                 <div class="faq-item item-white p-3">
                     <h2>The Best Financial Accounting App Ever!</h2>
-                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 mb-3">
                 <div class="faq-item item-red p-3">
                     <h2>The Best Financial Accounting App Ever!</h2>
-                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
+                    <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer Section -->
     <div class="footer bg-light py-4">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -216,21 +228,8 @@
         </div>
     </div>
 
-    <!-- Bootstrap and Custom JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script>
-        // Smooth scrolling for internal links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
+
 </html>
-
-
