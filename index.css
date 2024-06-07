@@ -1,273 +1,198 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-}
+     body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
 
-.navbar {
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+        .navbar {
+            background-color: #fff;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
 
-.nav-link {
-    color: #555555;
-    font-weight: 600;
-    transition: color 0.3s;
-}
+        .navbar-brand img {
+            max-width: 100px;
+        }
 
-.nav-link:hover {
-    color: #007bff;
-}
+        .nav-link {
+            color: #333 !important;
+        }
 
-.hero {
-    background-color: #ffffff;
-    padding: 100px 0;
-    position: relative;
-    overflow: hidden;
-}
+        .hero {
+            background-color: #fff;
+            padding: 100px 0;
+        }
 
-.hero h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
+        .hero h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+        }
 
-.hero p {
-    font-size: 1.125rem;
-    margin-bottom: 30px;
-}
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
 
-.hero-btn-div .btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-}
+        .btn-primary {
+            background-color: #f55;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
 
-.hero-btn-div .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-}
+        .btn-primary:hover {
+            background-color: #f77;
+        }
 
-.hero-btn-div .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004b93;
-}
+        .features-section {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+        }
 
-.watch-now {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
+        .features-section .h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 50px;
+        }
 
-.watch-now img {
-    margin-right: 10px;
-}
+        .features-list-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
 
-.ribbon {
-    margin-top: 40px;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+        .features-list-item img {
+            max-width: 40px;
+            margin-right: 15px;
+        }
 
-.ribbon-top,
-.ribbon-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        .features-list-item span {
+            font-size: 18px;
+            color: #333;
+        }
 
-.ribbon-text {
-    font-size: 0.875rem;
-    color: #555555;
-}
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 0;
+        }
 
-.ribbon-top-left img,
-.ribbon-top-right img {
-    margin-right: 10px;
-}
+        .footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
 
-.ribbon-mid p {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: 20px 0;
-}
+        .footer .footer-content .footer-lists {
+            margin-right: 50px;
+        }
 
-.bg-blur-red,
-.bg-blur-yellow {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
+        .footer .footer-content .footer-lists h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
 
-.bg-blur-red {
-    background-color: rgba(255, 99, 71, 0.5);
-}
+        .footer .footer-content .footer-lists ul {
+            padding: 0;
+            list-style: none;
+        }
 
-.bg-blur-yellow {
-    background-color: rgba(255, 235, 59, 0.5);
-}
+        .footer .footer-content .footer-lists ul li {
+            margin-bottom: 15px;
+        }
 
-.img-container .bg-blur-yellow,
-.img-container .bg-blur-red {
-    position: absolute;
-}
+        .footer .footer-content .footer-lists ul li a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-.img-container .bg-blur-yellow {
-    bottom: 0;
-    left: 0;
-}
+        .footer .footer-content .footer-lists ul li a:hover {
+            color: #f55;
+        }
 
-.img-container .bg-blur-red {
-    top: 0;
-    right: 0;
-}
+        .footer .footer-content .footer-lists form input {
+            width: 200px;
+            height: 40px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 10px;
+        }
 
-.img-bottom,
-.img-mid,
-.img-top {
-    position: absolute;
-}
+        .footer .footer-content .footer-lists form button {
+            background-color: #f55;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-.img-bottom {
-    bottom: 0;
-    left: 0;
-}
+        .footer .footer-content .footer-lists form button:hover {
+            background-color: #f77;
+        }
 
-.img-mid {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+        .copyright {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 30px;
+        }
 
-.img-top {
-    top: 0;
-    right: 0;
-}
+        @media (max-width: 768px) {
+            .navbar-brand img {
+                max-width: 80px;
+            }
 
-/* Features & Advantages Section */
-.features-section,
-.advantages-section {
-    padding: 60px 0;
-}
+            .hero h2 {
+                font-size: 36px;
+            }
 
-.features-section .info-section,
-.advantages-section .info-section {
-    padding: 20px;
-}
+            .hero p {
+                font-size: 16px;
+            }
 
-.features-section .headings .h4,
-.advantages-section .headings .h4 {
-    font-weight: 700;
-    color: #007bff;
-}
+            .btn-primary {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
 
-.features-section .headings .h2,
-.advantages-section .headings .h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
+            .features-section .h2 {
+                font-size: 28px;
+            }
 
-.features-list-item {
-    margin: 20px 0;
-}
+            .features-list-item img {
+                max-width: 30px;
+            }
 
-.features-list-item img {
-    margin-right: 10px;
-}
+            .features-list-item span {
+                font-size: 16px;
+            }
 
-/* FAQ Section */
-.faq-section .headings {
-    margin-bottom: 40px;
-}
+            .footer .footer-content {
+                flex-wrap: wrap;
+            }
 
-.faq-item {
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+            .footer .footer-content .footer-lists {
+                margin-right: 0;
+                margin-bottom: 50px;
+            }
 
-.item-red {
-    border-left: 5px solid #ff6f61;
-}
+            .footer .footer-content .footer-lists form {
+                margin-top: 20px;
+            }
 
-.item-white {
-    border-left: 5px solid #dddddd;
-}
-
-.faq-item h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.faq-item p {
-    font-size: 1rem;
-    color: #555555;
-}
-
-/* Footer */
-.footer {
-    background: #f8f9fa;
-}
-
-.footer .nav-link {
-    color: #555555;
-}
-
-.footer .nav-link:hover {
-    color: #007bff;
-}
-
-@media (max-width: 992px) {
-    .hero {
-        text-align: center;
-        padding: 50px 0;
-    }
-
-    .hero h2 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-    .features-section,
-    .advantages-section {
-        padding: 30px 0;
-    }
-
-    .features-section .info-section,
-    .advantages-section .info-section {
-        padding: 10px;
-    }
-
-    .features-section .headings .h2,
-    .advantages-section .headings .h2 {
-        font-size: 1.5rem;
-    }
-
-    .features-section .headings .h4,
-    .advantages-section .headings .h4 {
-        font-size: 1rem;
-    }
-
-    .features-list-item {
-        font-size: 0.875rem;
-    }
-
-    .faq-section .headings .h2 {
-        font-size: 1.5rem;
-    }
-
-    .faq-item h2 {
-        font-size: 1.25rem;
-    }
-
-    .faq-item p {
-        font-size: 0.875rem;
-    }
-}
+            .footer .footer-content .footer-lists form input,
+            .footer .footer-content .footer-lists form button {
+                width: 100%;
+            }
+        }
+    </style>
