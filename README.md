@@ -43,7 +43,7 @@ Libraries Used
 Bootstrap 5: Used for layout and responsive design.
 Google Fonts: Used for typography.
 Figma Design
-The design was based on a Figma mockup. You can view the Figma design here.
+The design was based on a Figma mockup. You can view the Figma design here at https://www.figma.com/design/deIt9q57PdKBnWrexwHbAw/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=1-29&t=7eBm0OiJXY8xcj9d-0.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
